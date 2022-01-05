@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/java134" driverClass="com.mysql.jdbc.Driver" password="root" userId="root" />
+    <javaModelGenerator targetPackage="model" targetProject="/home/l/eclipse-workspace/jan5/src/main/webapp/WEB-INF/java/com/ytc">
+       <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+    <sqlMapGenerator targetPackage="mapper"  targetProject="/home/l/eclipse-workspace/jan5/src/main/webapp/WEB-INF/java/com/ytc">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+    <javaClientGenerator targetPackage="mapping" targetProject="/home/l/eclipse-workspace/jan5/src/main/webapp/WEB-INF/java/com/ytc" type="XMLMAPPER" />
+    <table tableName="m_address">
+    </table>
+    <table tableName="m_file">
+    </table>
+    <table tableName="m_movie">
+    </table>
+    <table tableName="m_tree">
+    </table>
+    <table tableName="m_type">
+    </table>
+    <table tableName="m_year">
+    </table>
+  </context>
+</generatorConfiguration>
